@@ -1,0 +1,67 @@
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(228, 228, 228);
+}
+#current-location{
+    background-color: white;
+    margin-top: 50px;
+}
+h1{
+    margin: 22px;
+}
+
+.container{
+    width: 1000px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.container2{
+    margin-left: 50px;
+    width: 900px;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+#address-search{
+    background-color: black;
+}
+#t1{
+    color: aliceblue;
+}
+input
+{
+    width : 95%;
+    margin-left: 20px;
+    margin-right: auto;
+    padding: 5px;
+    border: 2px solid white;
+    background-color: black;
+   color: white;
+}
+
+button{
+    width: 150px;
+    padding: 4px;
+    margin: 10px;
+    margin-left: 20px ;
+    background-color: white;
+}
+
+.w{
+    color: white; 
+}
+#search{
+    color: red;
+    margin-left: 25px;
+}
+#s2{
+    color: green;
+    margin-left: 25px;
+}
+#h{
+    margin-left: 60px;
+}

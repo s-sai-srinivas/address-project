@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Time Zone API</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div id="body">
+        <div id="current-location">
+            <h1>Time Zone API</h1>
+            <h1>Your Current Time Zone</h1>
+            <div class="container">
+                <p>Name of the Time Zone : <span id="timezone"></span></p>
+                <p>Lat : <span id="lat"></span></p>
+                <p>Long : <span id="long"></span></p>
+                <p>Offset STD : <span id="std"></span></p>
+                <p>Offset STD Seconds : <span id="std-sec"></span></p>
+                <p>Offset DST : <span id="dst"></span></p>
+                <p>Offset DST Seconds : <span id="dst-sec"></span></p>
+                <p>Country : <span id="country"></span></p>
+                <p>Postcode : <span id="pst-code"></span></p>
+                <p>City : <span id="city"></span></p>
+            </div>
+            <div id="address-search">
+                <br>
+                <h1 id="t1">Enter Address</h1>
+                <form>
+                    <input type="text" id="address" placeholder="Address">
+                    <span id="search">Address is not found!</span>
+                    <span id="s2">Address is found!</span>
+                    
+                <button type="button"  onclick="getAddress()">get</button>
+               
+                </form>
+                <div id="getaddress">
+                    <h1 class="w" id="h">Result</h1>
+                <div class="container2">
+                 
+                 <p class="w" >Name of the Time Zone : <span class="w" id="timezone1"></span></p>
+                <p class="w" class="w">Lat : <span class="w" id="lat1"></span ></p>
+                <p class="w">Long : <span class="w" id="long1"></span></p>
+                <p class="w">Offset STD : <span class="w" id="std1"></span></p>
+                <p class="w">Offset STD Seconds : <span class="w" id="std-sec1"></span></p>
+                <p class="w">Offset DST : <span class="w" id="dst1"></span></p>
+                <p class="w">Offset DST Seconds : <span class="w" id="dst-sec1"></span></p>
+                <p class="w">Country : <span class="w" id="country1"></span></p">
+                <p class="w">Postcode : <span class="w" id="pst-code1"></span></p>
+                <p class="w">City : <span class="w" id="city1"></span></p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script src='index.js'></script>
+</body>
+
+</html>
